@@ -4,16 +4,16 @@ It’s not the first time tutorial about graphing mikrotik queue simple with cac
 # A. Graphing Mikrotik Queue Tree with Cacti
 
 you will see this files in your extract directory :
-cacti_data_query_mikrotik_simple_queue.xml
-cacti_data_template_mikrotik_simple_queue.xml
-cacti_graph_template_mikrotik_simple_queue.xml
-cacti_host_template_mikrotik_queue.xml
+cacti_data_query_mikrotik_simple_queue.xml,
+cacti_data_template_mikrotik_simple_queue.xml,
+cacti_graph_template_mikrotik_simple_queue.xml,
+cacti_host_template_mikrotik_queue.xml,
 ipacmikro.xml
 
-B. Installation
+# B. Installation
 
-Import cacti_data_query_mikrotik_simple_queue.xml (login cacti as administrator)
-Import cacti_data_template_mikrotik_simple_queue.xml
-Import cacti_graph_template_mikrotik_simple_queue.xml
-Import cacti_host_template_mikrotik_queue.xml
+Import cacti_data_query_mikrotik_simple_queue.xml (login cacti as administrator),
+Import cacti_data_template_mikrotik_simple_queue.xml,
+Import cacti_graph_template_mikrotik_simple_queue.xml,
+Import cacti_host_template_mikrotik_queue.xml,
 Copy ipacmikro.xml to /usr/share/cacti/resource/snmp_queries/ on the Cacti server (ubuntu server).
